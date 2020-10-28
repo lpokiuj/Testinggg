@@ -1,18 +1,26 @@
 #include <stdio.h>
 
-void sum(){
+void sum(int a, int b){
+
+    printf("%d\n", a+b);
 
 }
 
-void min(){
+void min(int a, int b){
+
+    printf("%d\n", a-b);
 
 }
 
-void kali(){
+void kali(int a, int b){
+
+    printf("%d\n", a*b);
 
 }
 
-void bagi(){
+void bagi(int a, int b){
+
+    printf("%d\n", a/b);
 
 }
 
@@ -23,16 +31,16 @@ int main(){
     
     switch(ch){
     case '+':
-        sum(a,b)
+        sum(a,b);
         break;
     case '-':
-        min(a,b)
+        min(a,b);
         break;
     case '*':
-        kali(a,b)
+        kali(a,b);
         break;
     case '/':
-        bagi(a,b)
+        bagi(a,b);
         break;    
     default:
         break;
